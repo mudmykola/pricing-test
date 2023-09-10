@@ -1,0 +1,34 @@
+:root {
+    // base
+    --font: 'Poppins', sans-serif;
+    --content-width: 1236px;
+    --container-offset: 15px;
+    --container-width: calc(var(--content-width) + (var(--container-offset) * 2));
+    //transition
+    --h-tr: all 0.5s ease;
+    --d-tr: all 0.3s ease;
+    //fonts-weight
+    --font-r: 400;
+    --font-m: 500;
+    --font-b: 700;
+}
+
+
+//color
+$c100: #231D4F;
+$c200: #BB6BD9;
+$c300: #3B3472;
+$c400: #848199;
+$c500: #fff;
+$c600: #403879;
+
+$default: #F5F5FA;
+
+// transition
+%dtrans {
+    transition: var(--d-tr);
+}
+
+%htrans {
+    transition: var(--h-tr);
+}
